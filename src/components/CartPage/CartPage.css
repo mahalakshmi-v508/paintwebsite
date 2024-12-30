@@ -1,0 +1,117 @@
+.paint-container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .paint-card {
+    background: #cadaff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .exterior-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  
+  .luxury-image {
+    width: 60% !important;
+    position: relative;
+    top: -50px; /* Move the paint bucket up */
+  }
+  
+  .paint-details {
+    margin-top: -20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #dd1a75;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-form label {
+    margin-bottom: 5px;
+  }
+  
+  .order-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .quantity-adjust {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-adjust button {
+    padding: 5px 10px;
+  }
+  
+  .order-buttons {
+    background-color: #e47dad;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .order-buttons2 {
+    padding-left: 10%;
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .success-popup {
+    background: #28a745;
+    color: white;
+    padding: 20px;
+    /* border-radius: 1px; */
+    text-align: center;
+  }
+  

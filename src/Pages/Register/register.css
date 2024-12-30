@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .register-container {
+    width: 90%;
+  }
+
+  .register-button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .register-container {
+    width: 95%;
+  }
+
+  .register-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+.register-modal {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 50px!important;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-form-container {
+  flex: 1;
+}
+
+.modal-form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.panda-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panda-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}

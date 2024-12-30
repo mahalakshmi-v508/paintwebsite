@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.form-container {
+  padding: 40px;
+}
+
+.paintform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center content vertically */
+}
+
+.contact-form {
+  flex: 1; /* Ensures the form takes up space proportionally */
+  max-width: 800px;
+  margin: auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #fdd835;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #ffd000;
+}
+
+.zebra-image {
+  margin-top: 40px;
+  width: 500px;
+  height: auto;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center; 
+  overflow: hidden;
+  position: relative;
+  height: 400px; /* Set a fixed height to the container */
+}
+
+.carousel-image {
+  width: auto;
+  height: 100%; /* Ensures the image fits within the container's height */
+  object-fit: cover; /* Ensures the image covers the container area without stretching */
+}
